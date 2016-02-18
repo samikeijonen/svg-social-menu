@@ -64,6 +64,13 @@ function svg_social_menu_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+	
+	/*
+	 * This theme styles the visual editor to resemble the theme style,
+	 * specifically font, colors, icons, and column width.
+	 */
+	add_editor_style( array( 'css/editor-style.css', svg_social_menu_fonts_url() ) );
+	
 }
 endif;
 add_action( 'after_setup_theme', 'svg_social_menu_setup' );

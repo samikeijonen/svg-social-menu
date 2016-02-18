@@ -36,9 +36,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Widgets
 # Content
 	## Posts and pages
-	## Asides
-	## Comments
-# Infinite scroll
 # Media
 	## Captions
 	## Galleries
@@ -404,8 +401,9 @@ kbd,
 tt,
 var {
 	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-	font-size: 15px;
-	font-size: 0.9375rem;
+	font-size: 0.875em;
+	background-color: #ecf1f7;
+	padding: 0.1em 0.25em;
 }
 
 abbr,
@@ -424,9 +422,11 @@ big {
 	font-size: 125%;
 }
 
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
+
 html {
 	box-sizing: border-box;
 }
@@ -447,22 +447,59 @@ q:before,
 q:after {
 	content: "";
 }
+blockquote:before {
+	background-color: #333;
+	border-radius: 50%;
+	color: #fff;
+	content: '\f106';
+	font-size: 32px;
+	display: block;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 52px;
+	height: 52px;
+}
 
-blockquote,
-q {
+blockquote {
+	background-color: #ecf1f7;
+	font-size: 1.25em;
 	quotes: "" "";
+	margin: 0 0 1.13333333333em 0;
+	text-align: center;
+}
+.single blockquote,
+.page blockquote {
+	padding: 2em 1.13333333333em;
+}
+blockquote p:first-child,
+q p:first-child {
+	margin-top: 1.13333333333em;
+}
+blockquote p:last-child,
+q p:last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: 42.875em) {
+
+	blockquote {
+		font-size: 1.5em;
+	}	
+	
 }
 
 hr {
-	background-color: #ccc;
+	background-color: #c7d6e4;
 	border: 0;
 	height: 1px;
-	margin-bottom: 1.5em;
+	margin-bottom: 1.7em;
 }
 
 ul,
 ol {
-	margin: 0 0 1.5em 3em;
+	padding: 0;
+	margin: 0 0 1.7em 1.7em;
 }
 
 ul {
@@ -475,8 +512,9 @@ ol {
 
 li > ul,
 li > ol {
+	padding-left: 1em;
 	margin-bottom: 0;
-	margin-left: 1.5em;
+	margin-left: 1em;
 }
 
 dt {
@@ -484,7 +522,7 @@ dt {
 }
 
 dd {
-	margin: 0 1.5em 1.5em;
+	margin: 0 1.7em 1.7em;
 }
 
 img {
@@ -492,49 +530,98 @@ img {
 	max-width: 100%; /* Adhere to container width. */
 }
 
+table,
+th,
+td {
+	border: 1px solid #c7d6e4;
+}
+
 table {
-	margin: 0 0 1.5em;
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	margin: 0 0 1.7em;
+	table-layout: fixed;
+	/* Prevents HTML tables from becoming too wide */
 	width: 100%;
 }
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+th {
+	border-width: 0 1px 1px 0;
+	font-weight: 700;
+}
+
+td {
+	border-width: 0 1px 1px 0;
+}
+
+th,
+td {
+	padding: 0.4375em;
+}
+
 
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
+
 button,
 input[type="button"],
 input[type="reset"],
-input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
-	background: #e6e6e6;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-	color: rgba(0, 0, 0, .8);
-	font-size: 12px;
-	font-size: 0.75rem;
+input[type="submit"],
+.button {
+	background-color: #424a55;
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	font-size: 0.875rem;
+	letter-spacing: 1px;
 	line-height: 1;
-	padding: .6em 1em .4em;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+	padding: 1em 1.4em;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in-out;
+}
+a.svg-social-menu-callout-button,
+a.svg-social-menu-callout-button:visited {
+	background-color: #ee464f;
+	border-bottom: none;
+	color: #fff;
+	display: inline-block;
+	margin-top: 2.5em;
+	text-align: center;
 }
 
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
-input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
-}
-
+input[type="submit"]:hover,
+.button:hover,
 button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
 input[type="submit"]:focus,
+.button:focus,
 button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
-input[type="submit"]:active {
-	border-color: #aaa #bbb #bbb;
-	box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+input[type="submit"]:active,
+.button:active {
+	background-color: #ee464f;
+}
+
+a.svg-social-menu-callout-button:hover,
+a.svg-social-menu-callout-button:focus,
+a.svg-social-menu-callout-button:active {
+	background-color: #424a55;
 }
 
 input[type="text"],
@@ -554,12 +641,12 @@ input[type="datetime-local"],
 input[type="color"],
 textarea {
 	color: #666;
-	border: 1px solid #ccc;
-	border-radius: 3px;
+	border: 1px solid #c7d6e4;
+	transition: all 0.2s ease-in-out;
 }
 
 select {
-	border: 1px solid #ccc;
+	border: 1px solid #c7d6e4;
 }
 
 input[type="text"]:focus,
@@ -578,7 +665,8 @@ input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
-	color: #111;
+	border-color: #424a55;
+	outline: 0;
 }
 
 input[type="text"],
@@ -595,14 +683,13 @@ input[type="week"],
 input[type="time"],
 input[type="datetime"],
 input[type="datetime-local"],
-input[type="color"] {
-	padding: 3px;
-}
-
+input[type="color"],
+select,
 textarea {
-	padding-left: 3px;
+	padding: 0.5em;
 	width: 100%;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation
@@ -610,6 +697,7 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
+
 a,
 a:visited {
 	color: #424a55;
@@ -781,9 +869,9 @@ a:active {
 
 .site-header {
 	text-align: center;
-	padding-bottom: 3em;
 }
-.site-branding {
+.site-branding ,
+.menu-social {
 	padding-bottom: 3em;
 }
 

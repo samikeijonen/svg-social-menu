@@ -17,7 +17,7 @@ This theme is showcasing that we can use SVG icons in Social Menu. Or can we? Th
 * Is SVG social menu system accessible?
 * If you forget IE6-8 does it work in all browsers?
 
-## How Does SVG Social Menu Work?
+## Demo
 
 ## Copyright and License
 
