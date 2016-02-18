@@ -1,225 +1,254 @@
-# Copyright (C) 2016 Automattic
+# Copyright (C) 2016 Sami Keijonen
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: _s 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2015-09-16 19:02:07+00:00\n"
+"Project-Id-Version: SVG Social Menu 1.0.0\n"
+"Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
+"POT-Creation-Date: 2016-02-18 14:35:36+00:00\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+"Language: en_US\n"
 
 #: 404.php:17
-#@ _s
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
 #: 404.php:21
-#@ _s
-msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
 msgstr ""
 
-#: 404.php:29
-#@ _s
+#: 404.php:33
 msgid "Most Used Categories"
 msgstr ""
 
+#: 404.php:51
 #. translators: %1$s: smiley
-#: 404.php:46
-#, php-format
-#@ _s
 msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
 
-#: comments.php:31
-#, php-format
-#@ _s
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
-
-#: comments.php:40
-#: comments.php:61
-#@ _s
-msgid "Comment navigation"
-msgstr ""
-
-#: comments.php:43
-#: comments.php:64
-#@ _s
-msgid "Older Comments"
-msgstr ""
-
-#: comments.php:44
-#: comments.php:65
-#@ _s
-msgid "Newer Comments"
-msgstr ""
-
-#: comments.php:77
-#@ _s
-msgid "Comments are closed."
-msgstr ""
-
 #: footer.php:18
-#@ _s
 msgid "https://wordpress.org/"
 msgstr ""
 
 #: footer.php:18
-#, php-format
-#@ _s
 msgid "Proudly powered by %s"
 msgstr ""
 
 #: footer.php:20
-#, php-format
-#@ _s
 msgid "Theme: %1$s by %2$s."
 msgstr ""
 
 #: functions.php:47
-#@ _s
-msgid "Primary"
+msgid "Social Links"
 msgstr ""
 
-#: functions.php:102
-#@ _s
-msgid "Sidebar"
-msgstr ""
-
-#: header.php:25
-#@ _s
+#: header.php:33
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:38
-#@ _s
-msgid "Primary Menu"
+#: header.php:54
+msgid "Social Menu"
 msgstr ""
 
-#: inc/template-tags.php:28
-#, php-format
-#@ _s
-msgctxt "post date"
-msgid "Posted on %s"
+#: svg-icons.php:12
+msgid "rating"
 msgstr ""
 
-#: inc/template-tags.php:33
-#, php-format
-#@ _s
-msgctxt "post author"
-msgid "by %s"
+#: svg-icons.php:13
+msgid "rating svg icon"
 msgstr ""
 
-#. translators: used between list items, there is a space after the comma
-#: inc/template-tags.php:50
-#: inc/template-tags.php:56
-#@ _s
-msgid ", "
+#: svg-icons.php:17
+msgid "checkmark"
 msgstr ""
 
-#: inc/template-tags.php:52
-#, php-format
-#@ _s
-msgid "Posted in %1$s"
+#: svg-icons.php:18
+msgid "checkmark svg icon"
 msgstr ""
 
-#: inc/template-tags.php:58
-#, php-format
-#@ _s
-msgid "Tagged %1$s"
+#: svg-icons.php:22
+msgid "collapse"
 msgstr ""
 
-#: inc/template-tags.php:64
-#@ _s
-msgid "Leave a comment"
+#: svg-icons.php:23
+msgid "collapse svg icon"
 msgstr ""
 
-#: inc/template-tags.php:64
-#@ _s
-msgid "1 Comment"
+#: svg-icons.php:27
+msgid "edit"
 msgstr ""
 
-#: inc/template-tags.php:64
-#, php-format
-#@ _s
-msgid "% Comments"
+#: svg-icons.php:28
+msgid "edit svg icon"
 msgstr ""
 
-#. translators: %s: Name of current post
-#: inc/template-tags.php:71
-#: template-parts/content-page.php:32
-#, php-format
-#@ _s
-msgid "Edit %s"
+#: svg-icons.php:32
+msgid "expand"
 msgstr ""
 
-#: search.php:18
-#, php-format
-#@ _s
-msgid "Search Results for: %s"
+#: svg-icons.php:33
+msgid "expand svg icon"
+msgstr ""
+
+#: svg-icons.php:37
+msgid "facebook"
+msgstr ""
+
+#: svg-icons.php:38
+msgid "facebook svg icon"
+msgstr ""
+
+#: svg-icons.php:42
+msgid "googleplus"
+msgstr ""
+
+#: svg-icons.php:43
+msgid "googleplus svg icon"
+msgstr ""
+
+#: svg-icons.php:47
+msgid "instagram"
+msgstr ""
+
+#: svg-icons.php:48
+msgid "instagram svg icon"
+msgstr ""
+
+#: svg-icons.php:52
+msgid "mail"
+msgstr ""
+
+#: svg-icons.php:53
+msgid "mail svg icon"
+msgstr ""
+
+#: svg-icons.php:57
+msgid "month"
+msgstr ""
+
+#: svg-icons.php:58
+msgid "month svg icon"
+msgstr ""
+
+#: svg-icons.php:62
+msgid "next"
+msgstr ""
+
+#: svg-icons.php:63
+msgid "next svg icon"
+msgstr ""
+
+#: svg-icons.php:67
+msgid "phone"
+msgstr ""
+
+#: svg-icons.php:68
+msgid "phone svg icon"
+msgstr ""
+
+#: svg-icons.php:72
+msgid "previous"
+msgstr ""
+
+#: svg-icons.php:73
+msgid "previous svg icon"
+msgstr ""
+
+#: svg-icons.php:77
+msgid "search"
+msgstr ""
+
+#: svg-icons.php:78
+msgid "search svg icon"
+msgstr ""
+
+#: svg-icons.php:82
+msgid "twitter"
+msgstr ""
+
+#: svg-icons.php:83
+msgid "twitter svg icon"
+msgstr ""
+
+#: svg-icons.php:87
+msgid "video"
+msgstr ""
+
+#: svg-icons.php:88
+msgid "video svg icon"
+msgstr ""
+
+#: svg-icons.php:92
+msgid "uparrow"
+msgstr ""
+
+#: svg-icons.php:93
+msgid "uparrow svg icon"
+msgstr ""
+
+#: svg-icons.php:97
+msgid "downarrow"
+msgstr ""
+
+#: svg-icons.php:98
+msgid "downarrow svg icon"
 msgstr ""
 
 #: template-parts/content-none.php:14
-#@ _s
 msgid "Nothing Found"
 msgstr ""
 
-#: template-parts/content-none.php:20
-#, php-format
-#@ _s
+#: template-parts/content-none.php:21
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: template-parts/content-none.php:24
-#@ _s
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
 msgstr ""
 
-#: template-parts/content-none.php:29
-#@ _s
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
 
-#: template-parts/content-page.php:21
-#: template-parts/content-single.php:25
-#: template-parts/content.php:34
-#@ _s
-msgid "Pages:"
-msgstr ""
-
-#. translators: %s: Name of current post.
 #: template-parts/content.php:27
-#, php-format
-#@ _s
+#. translators: %s: Name of current post.
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
+
 #. Theme Name of the plugin/theme
-msgid "_s"
+msgid "SVG Social Menu"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-#@ _s
-msgid "http://underscores.me/"
+msgid "https://foxland.fi/downloads/category/themes/"
 msgstr ""
 
 #. Description of the plugin/theme
-#@ _s
-msgid "Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for."
+msgid "Demo of SVG Social Nav Menu"
 msgstr ""
 
 #. Author of the plugin/theme
-#@ _s
-msgid "Automattic"
+msgid "Sami Keijonen"
 msgstr ""
 
 #. Author URI of the plugin/theme
-#@ _s
-msgid "http://automattic.com/"
+msgid "https://foxland.fi/"
+msgstr ""
+
+#: functions.php:97
+#. translators: If there are characters in your language that are not supported
+#. by Lato, translate this to 'off'. Do not translate into your own language.
+msgctxt "Lato font: on or off"
+msgid "on"
 msgstr ""
