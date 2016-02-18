@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SVG Social Menu 1.0.0\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
-"POT-Creation-Date: 2016-02-18 15:27:40+00:00\n"
+"POT-Creation-Date: 2016-02-18 15:31:44+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -66,139 +66,43 @@ msgid "rating svg icon"
 msgstr ""
 
 #: svg-icons.php:17
-msgid "checkmark"
-msgstr ""
-
-#: svg-icons.php:18
-msgid "checkmark svg icon"
-msgstr ""
-
-#: svg-icons.php:22
-msgid "collapse"
-msgstr ""
-
-#: svg-icons.php:23
-msgid "collapse svg icon"
-msgstr ""
-
-#: svg-icons.php:27
-msgid "edit"
-msgstr ""
-
-#: svg-icons.php:28
-msgid "edit svg icon"
-msgstr ""
-
-#: svg-icons.php:32
-msgid "expand"
-msgstr ""
-
-#: svg-icons.php:33
-msgid "expand svg icon"
-msgstr ""
-
-#: svg-icons.php:37
 msgid "facebook"
 msgstr ""
 
-#: svg-icons.php:38
+#: svg-icons.php:18
 msgid "facebook svg icon"
 msgstr ""
 
-#: svg-icons.php:42
+#: svg-icons.php:22
 msgid "googleplus"
 msgstr ""
 
-#: svg-icons.php:43
+#: svg-icons.php:23
 msgid "googleplus svg icon"
 msgstr ""
 
-#: svg-icons.php:47
+#: svg-icons.php:27
 msgid "instagram"
 msgstr ""
 
-#: svg-icons.php:48
+#: svg-icons.php:28
 msgid "instagram svg icon"
 msgstr ""
 
-#: svg-icons.php:52
+#: svg-icons.php:32
 msgid "mail"
 msgstr ""
 
-#: svg-icons.php:53
+#: svg-icons.php:33
 msgid "mail svg icon"
 msgstr ""
 
-#: svg-icons.php:57
-msgid "month"
-msgstr ""
-
-#: svg-icons.php:58
-msgid "month svg icon"
-msgstr ""
-
-#: svg-icons.php:62
-msgid "next"
-msgstr ""
-
-#: svg-icons.php:63
-msgid "next svg icon"
-msgstr ""
-
-#: svg-icons.php:67
-msgid "phone"
-msgstr ""
-
-#: svg-icons.php:68
-msgid "phone svg icon"
-msgstr ""
-
-#: svg-icons.php:72
-msgid "previous"
-msgstr ""
-
-#: svg-icons.php:73
-msgid "previous svg icon"
-msgstr ""
-
-#: svg-icons.php:77
-msgid "search"
-msgstr ""
-
-#: svg-icons.php:78
-msgid "search svg icon"
-msgstr ""
-
-#: svg-icons.php:82
+#: svg-icons.php:37
 msgid "twitter"
 msgstr ""
 
-#: svg-icons.php:83
+#: svg-icons.php:38
 msgid "twitter svg icon"
-msgstr ""
-
-#: svg-icons.php:87
-msgid "video"
-msgstr ""
-
-#: svg-icons.php:88
-msgid "video svg icon"
-msgstr ""
-
-#: svg-icons.php:92
-msgid "uparrow"
-msgstr ""
-
-#: svg-icons.php:93
-msgid "uparrow svg icon"
-msgstr ""
-
-#: svg-icons.php:97
-msgid "downarrow"
-msgstr ""
-
-#: svg-icons.php:98
-msgid "downarrow svg icon"
 msgstr ""
 
 #: template-parts/content-none.php:14
