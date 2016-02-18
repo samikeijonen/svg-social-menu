@@ -19,6 +19,8 @@ This theme is showcasing that we can use SVG icons in Social Menu. Or can we? Th
 
 ## Demo
 
+You can check the end result from [demo site](https://foxland.fi/demo/svg-social-menu/).
+
 ## Copyright and License
 
 The following resources are not included with the theme but are external resources linked to within the theme.
