@@ -622,6 +622,7 @@ a.svg-social-menu-callout-button:hover,
 a.svg-social-menu-callout-button:focus,
 a.svg-social-menu-callout-button:active {
 	background-color: #424a55;
+	color: #fff;
 }
 
 input[type="text"],
