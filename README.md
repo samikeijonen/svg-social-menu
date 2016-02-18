@@ -1,6 +1,6 @@
 # SVG Social Menu
 
-[Justin Tadlock](http://themehybrid.com/) have invented [social nav menu](http://justintadlock.com/archives/2013/08/14/social-nav-menus-part-2) system. Pretty much everybody is using it.
+[Justin Tadlock](http://themehybrid.com/) have invented [social nav menu](http://justintadlock.com/archives/2013/08/14/social-nav-menus-part-2) system. Pretty much everybody is using it. It is great!
 
 But lately I've been thinking can we use SVG icons in Social Menu instead of icon fonts. There are several articles about SVG vs icon fonts:
 
@@ -10,7 +10,14 @@ But lately I've been thinking can we use SVG icons in Social Menu instead of ico
 * [Bulletproof Accessible Icon Fonts](https://www.filamentgroup.com/lab/bulletproof_icon_fonts.html)
 * [Tips for Creating Accessible SVG](http://www.sitepoint.com/tips-accessible-svg/)
 
-This theme is showcasing that we can use SVG icons in Social Menu.
+This theme is showcasing that we can use SVG icons in Social Menu. Or can we? That's where I need your help:
+
+* Is there a better way to handle SVG than using `walker_nav_menu_start_el` filter and PHP? Check `functions.php` file.
+* Is inlining SVG using `get_template_part( 'svg-icons' );` best solution? Should we use `reguire_once` instead or just `svg-icons.svg` file. Check `header.php` file.
+* Is SVG social menu system accessible?
+* If you forget IE6-8 does it work in all browsers?
+
+## How Does SVG Social Menu Work?
 
 ## Copyright and License
 
